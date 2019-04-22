@@ -28,7 +28,7 @@ for i, num in enumerate(input_num):
     input_num[i] = num
 
 rank_num = []
-for i, num in enumerate(input_num):
+for num in input_num:
     if 0 < num < (order_max + 1):
         rank_num.append(num)
 
